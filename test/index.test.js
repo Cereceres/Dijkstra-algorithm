@@ -9,7 +9,6 @@ describe('test to algorithm', () => {
             7, 2, Infinity, 4,
             7, 5, 3, Infinity
         ], index);
-        console.log('res ', res, index);
         assert(res[index] === 0);
     });
 
@@ -21,7 +20,6 @@ describe('test to algorithm', () => {
             1, 1, Infinity, 1,
             1, 1, 1, Infinity
         ], index);
-        console.log('res ', res, index);
         assert(res[index] === 0);
     });
 
@@ -33,7 +31,7 @@ describe('test to algorithm', () => {
             1, 1, Infinity, 1,
             1, 1, 1, Infinity
         ], index);
-        console.log('res ', res, index);
         assert(res[index] === 0);
+        assert.deepEqual(res, [ 1, 0, 1, 2 ]);
     });
 });
