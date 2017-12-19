@@ -7,7 +7,7 @@ module.exports = (graph = [], node = 0) => {
     let actualNode = node;
     let actualDistance = 0;
     marked.add(actualNode);
-    path[node] = actualDistance;
+    path[actualNode] = actualDistance;
     while(marked.size < nodes) {
         for (let i = 0; i < nodes; i++) {
             if (marked.has(i)) continue;
@@ -26,5 +26,5 @@ module.exports = (graph = [], node = 0) => {
         actualNode = nodeWithMinDistance;
         actualDistance = minPath;
     }
-    return Array.from(marked);
+    return path;
 };
