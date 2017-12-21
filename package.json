@@ -1,0 +1,26 @@
+{
+  "name": "dijkstra-algorithm",
+  "version": "0.0.1",
+  "description": "dijkstra,algorithm",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cereceres/Dijkstra-algorithm.git"
+  },
+  "keywords": [
+    "dijkstra",
+    "algorithm"
+  ],
+  "author": "Jesus Cereceres",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cereceres/Dijkstra-algorithm/issues"
+  },
+  "homepage": "https://github.com/Cereceres/Dijkstra-algorithm#readme"
+}

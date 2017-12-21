@@ -16,7 +16,7 @@ npm test
 # usage
 
 ```js
-const dijkstra = require('Dijkstra-algorithm');
+const dijkstra = require('dijkstra-algorithm');
 const index = 1;
 const res = dijkstra([
     Infinity, 1, Infinity, 1,

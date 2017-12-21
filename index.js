@@ -11,7 +11,7 @@ module.exports = (graph = [], node = 0) => {
     while(marked.size < nodes) {
         for (let i = 0; i < nodes; i++) {
             if (marked.has(i)) continue;
-            const distance = actualDistance + graph[actualNode + i];
+            const distance = actualDistance + (graph[actualNode + i] || 0);
             if (path[i] > distance) path[i] = distance;
         }
         marked.add(actualNode);
